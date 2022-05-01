@@ -1,0 +1,152 @@
+
+*{
+    color: #0a9396;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.image_rep{
+    height: 110px;
+    width: 190px;
+    margin-top: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li,a,ul{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+
+.title{
+    font-size: 4rem;
+    position: absolute;
+    left: 24rem;
+    top: 10rem;
+    color: #0a9396;
+}
+
+.sub-title{
+    position: absolute;
+    left: 32rem;
+    top: 18rem;
+}
+
+.mainlogo{
+    height: 300px;
+    position: absolute;
+    left: 30rem;
+    top: 22rem;
+}
+
+#custom-button{
+    padding: 10px;
+    color: white;
+    background-color: #0a9396;
+    border: 1px solid #219ebc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#custom-button:hover{
+    background-color: #219ebc;
+}
+
+#custom-text{
+    margin-left: 10px;
+    color: #0a9396;
+}
+
+::-webkit-file-upload-button{
+    padding: 10px 8px;
+    color: white;
+    background: #0a9396;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#imageUpload{
+    position: absolute;
+    top: 23rem;
+    left: 3rem;
+}
+
+.field{
+    position: absolute;
+    top: 27rem;
+    left: 3rem;
+    width: 8rem;
+    padding: 0.5rem 1rem;
+    background-color: #0a9396;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+}
+
+
+button{
+    position: fixed;
+    background: #0a9396;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    top: 7rem;
+    left: 40rem;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#address-form{
+    position: relative;
+    top: 7rem;
+    left: 1rem;
+}
+
+.full-field{
+    outline: none;
+}
+
+.hyper{
+    color: #0a9396;
+    font-size: 15px;
+}
+
+h4{
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+}
+
+.f-title{
+    font-size: 60px;
+    position: absolute;
+    left: 40rem;
+    bottom: 20rem;
+}
+
+#ImageUpload{
+    position: relative;
+    left: 10rem;
+}
